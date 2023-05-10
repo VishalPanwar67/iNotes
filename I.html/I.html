@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I Notes</title>
+    <link rel="stylesheet" href="../I.css/I.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main_container">
+      <!-- Navbar Section -->
+      <nav id="navbar">
+        <h1>I Notes</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+        </ul>
+        <div id="search">
+          <input
+            type="search"
+            placeholder="Search your notes"
+            id="searchText"
+          />
+          <button class="btn" id="search_btn">search</button>
+        </div>
+      </nav>
+      <div id="container">
+        <!-- Add Notes Section  -->
+        <h1>Welcome to I Notes</h1>
+        <div id="addNotesSection">
+          <div id="notesTitle" class="title">
+            Add Note Title
+            <input type="text" id="addTitle" />
+          </div>
+          Add Note
+          <textarea name="notes" id="addnote"></textarea>
+          <button class="btn" id="addbtn">Add Note</button>
+        </div>
+        <!-- Added Notes Section  -->
+        <div id="Child_container">
+          <hr />
+          <h1>Your Notes</h1>
+          <hr />
+          <div id="addedNotesSection">
+            <div id="notes" class="allNotes">
+              <!-- <h5>Your Note</h5>
+              <p name="notes" class="addednotes">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                accusantium aut debitis. Cupiditate natus minus molestias quo
+                recusandae explicabo aut optio facere aliquid eaque doloremque
+                vero, enim voluptatibus quia voluptates!
+              </p>
+              <button class="btn" id="delbtn">Delete Note</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Section  -->
+      <footer>This is Footer</footer>
+    </div>
+    <script src="../I.js/I.js"></script>
+  </body>
+</html>
